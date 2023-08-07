@@ -8,7 +8,7 @@ function App() {
   const [message,setMessage]=useState("")
 
      const handleChange=()=>{
-          if (inputValue === hidden){
+        if (inputValue === hidden){
             console.log("That is correct")
             setMessage("This is correct")
           }else if (inputValue > hidden){
